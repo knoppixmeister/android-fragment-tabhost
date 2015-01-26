@@ -22,7 +22,6 @@ public class Main extends ActionBarActivity {
         //mTabHost.addTab(mTabHost.newTabSpec("tab3").setIndicator("Tab 3", null), FragmentTab.class, null);
 	}
 
-	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		menu.add(1, 1, 1, "Menu item #1");
 		menu.add(1, 2, 2, "Menu item #2");
@@ -30,7 +29,6 @@ public class Main extends ActionBarActivity {
 		return true;
 	}
 
-	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		Log.e("AAA", "ITEM ID: "+item.getItemId());
 
